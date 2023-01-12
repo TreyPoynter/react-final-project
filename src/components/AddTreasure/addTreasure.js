@@ -5,7 +5,6 @@ import '../style/addTreasure.css'
 
 function AddTreasure(props) {
 
-
     const createTreasure = () => {
         const newTreasure = {'id': nanoid(), 'name': props.name, 'goldAmount': props.goldAmount, 'spawnRate': props.spawnRate, 'image': URL.createObjectURL(props.selectedFile)}
         props.addTreasure(newTreasure);

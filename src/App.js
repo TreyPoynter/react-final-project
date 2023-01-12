@@ -78,7 +78,7 @@ function App() {
       <div className='text-center'>
         <h1 className='display-2'>Loot Fondling</h1>
       </div>
-      <AddTreasure addTreasure={addTreasureItem} name={name} setName={setName} goldAmount={goldAmount} setGoldAmount={setGoldAmount} 
+      <AddTreasure addTreasure={addTreasureItem} name={name} setName={setName} goldAmount={goldAmount} setGoldAmount={setGoldAmount}
         spawnRate={spawnRate} setSpawnRate={setSpawnRate} selectedFile={selectedFile} setSelectedFile={setSelectedFile}/>
       <SearchTreasure searchTreasure={searchTreasure}/>
       <div className="row">
